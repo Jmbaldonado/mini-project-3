@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
     return (
-        <section class="background-green">
+        <section class="background-green text-md-center">
             {/* <Container className="p-5">
                 <div className=" d-flex  flex-column align-items-center justify-content-center">
                     <h2 className="filler__title">Turn your passion into a career</h2>
@@ -14,7 +14,7 @@ const Footer = () => {
                 </div>
             </Container> */}
 
-            <div className="filler d-flex flex-column align-items-center justify-content-center p-5">
+            <div className="filler d-flex flex-column align-items-center justify-content-center p-5 ">
                 <div className="">
                     <h2 className="filler__title">Turn your passion into a career</h2>
                     <button className="btn btn-custom-dark text-uppercase">SEE COMPLETE LIST OF SPECIALIZED PROGRAMS</button>
@@ -36,20 +36,22 @@ const Footer = () => {
                     </div>
 
                     <div className="col-md-4">
-                        <h3 className="connect__subtitle">Connect with us</h3>
-                        <h2 className="connect__title">8230 - 5100</h2>
+                        <div className="d-flex flex-column align-items-start">
+                            <h3 className="connect__subtitle">Connect with us</h3>
+                            <h2 className="connect__title">8230 - 5100</h2>
+                        </div>
                         <button className="btn btn-custom-dark text-uppercase">Office Directory</button>
-                        <div className="row">
-                            <div className="col-md-3">
+                        <div className="row d-flex justify-content-evenly align-items-center">
+                            <div className="col-3">
                                 <FontAwesomeIcon icon={["fab", "facebook-f"]} className="connect__icon"/>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-3">
                                 <FontAwesomeIcon icon={["fab", "twitter"]} className="connect__icon"/>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-3">
                                 <FontAwesomeIcon icon={["fab", "youtube"]} className="connect__icon"/>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-3">
                                 <FontAwesomeIcon icon={["fab", "instagram"]} className="connect__icon"/>
                             </div>
                         </div>

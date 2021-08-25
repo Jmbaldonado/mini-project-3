@@ -7,6 +7,7 @@
     background-position: center;
     background-repeat: no-repeat;
     z-index: 1;
+   
 }
 
 .hero__desc {
@@ -87,4 +88,235 @@
 
 .card__desc > p > a:hover {
     text-decoration: underline;
+}
+
+
+/* Admission Hero */
+
+.admission__hero {
+    position: relative;
+    min-height: 165vh;
+    background-image: url("/src/images/admissionBg.png");
+    background-size: cover;
+    background-position: center 30px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-color: #417630!important;
+}
+
+.admission__desc {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media (max-width: 767px) {
+    .admission__hero {
+        min-height: 200vh;
+    }
+
+    .admission__desc {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 10%);
+    }
+}
+
+.admission__item {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #E9ECEF;
+}
+
+.admission__title {
+    font-family: 'Poppins',sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.admission__itemDescription {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.admission__item > ul {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.admission__itemHeader {
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #417630;
+    color: #fff;
+}
+
+.admission__itemTitle {
+    font-family: 'Poppins',sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.admission__itemBody {
+    background-color: #fff;
+    border: 1px solid #E9ECEF;
+}
+
+.form-label {
+    font-size: 14px!important;
+}
+
+.forgotPass {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 12px;
+}
+
+.admissionLogin__btn {
+    background-color: #00C709;
+    color: #fff;
+    font-family: 'Poppins',sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.admissionLogin__btn:hover {
+    color: #fff;
+    background-color: #007D1E;
+    transition: 0.3s ease-in-out;
+}
+
+.admission__itemFooter {
+    background-color: #EEEEEE;
+    color: #666666;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #E9ECEF;
+}
+
+.admissionFooter__desc {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.admission__itemHeaderLight {
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #EEEEEE;
+    color: #666666;
+}
+
+.admission__subtitle {
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.blue {
+    color: #007BFF!important;
+    font-weight: 600!important;
+}
+
+/* Registration */
+
+.registration__desc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.registration__header {
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #417630;
+    color: #fff;
+}
+
+.header__title {
+    font-family: 'Poppins',sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.registration__body {
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #E9ECEF;
+}
+
+.body__header {
+    background-color: #eee;
+    color: #666666;
+}
+.body__headerDesc {
+    font-size: 14px;
+    font-weight: 600;
+}
+.red {
+    color: #DC3545;
+}
+
+/* Login */
+
+.login__desc {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login__container {
+    background-color: rgb(245, 245, 245);
+    border: 1px solid #E9ECEF;
+    border-radius: 5px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #007D1E!important;
+    color: #fff!important;
+}
+
+.nav-pills .nav-link {
+    background-color: #00C709!important;
+    color: #fff!important;
+    margin-bottom: 5px;
+}
+
+.logout {
+    color: #000!important ;
+}
+
+.tab-pane.active {
+    border: 1px solid #E9ECEF!important;
+    border-radius: 5px;
+    background-color: #fff!important;
+    color: #000!important;
+}
+
+.login__header {
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #417630;
+    color: #fff;
+}
+
+.header__subtitle {
+    font-family: 'Poppins',sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.body__title {
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.table__header {
+    font-size: 14px!important;
 }
