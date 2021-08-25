@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/mini-project-3/static/css/main.d09358b1.chunk.css",
-    "main.js": "/mini-project-3/static/js/main.8cca48b1.chunk.js",
-    "main.js.map": "/mini-project-3/static/js/main.8cca48b1.chunk.js.map",
+    "main.css": "/mini-project-3/static/css/main.be15cd8e.chunk.css",
+    "main.js": "/mini-project-3/static/js/main.3a0545a4.chunk.js",
+    "main.js.map": "/mini-project-3/static/js/main.3a0545a4.chunk.js.map",
     "runtime-main.js": "/mini-project-3/static/js/runtime-main.8b2abefd.js",
     "runtime-main.js.map": "/mini-project-3/static/js/runtime-main.8b2abefd.js.map",
     "static/css/2.818011ed.chunk.css": "/mini-project-3/static/css/2.818011ed.chunk.css",
-    "static/js/2.957dab52.chunk.js": "/mini-project-3/static/js/2.957dab52.chunk.js",
-    "static/js/2.957dab52.chunk.js.map": "/mini-project-3/static/js/2.957dab52.chunk.js.map",
+    "static/js/2.23b1cf6b.chunk.js": "/mini-project-3/static/js/2.23b1cf6b.chunk.js",
+    "static/js/2.23b1cf6b.chunk.js.map": "/mini-project-3/static/js/2.23b1cf6b.chunk.js.map",
     "index.html": "/mini-project-3/index.html",
     "static/css/2.818011ed.chunk.css.map": "/mini-project-3/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.d09358b1.chunk.css.map": "/mini-project-3/static/css/main.d09358b1.chunk.css.map",
-    "static/js/2.957dab52.chunk.js.LICENSE.txt": "/mini-project-3/static/js/2.957dab52.chunk.js.LICENSE.txt",
+    "static/css/main.be15cd8e.chunk.css.map": "/mini-project-3/static/css/main.be15cd8e.chunk.css.map",
+    "static/js/2.23b1cf6b.chunk.js.LICENSE.txt": "/mini-project-3/static/js/2.23b1cf6b.chunk.js.LICENSE.txt",
+    "static/media/Hero.css": "/mini-project-3/static/media/hero.0ba98e3c.jpg",
     "static/media/carousel1.f9e5204a.jpeg": "/mini-project-3/static/media/carousel1.f9e5204a.jpeg",
     "static/media/carousel2.f7896163.png": "/mini-project-3/static/media/carousel2.f7896163.png",
     "static/media/carousel3.d8ef3972.jpg": "/mini-project-3/static/media/carousel3.d8ef3972.jpg",
@@ -19,7 +20,6 @@
     "static/media/carousel5.60978596.png": "/mini-project-3/static/media/carousel5.60978596.png",
     "static/media/Footer.css": "/mini-project-3/static/media/filler.c238e68b.jpg",
     "static/media/footer.3bbed8bc.svg": "/mini-project-3/static/media/footer.3bbed8bc.svg",
-    "static/media/Hero.css": "/mini-project-3/static/media/hero.0ba98e3c.jpg",
     "static/media/section1.256c8edc.png": "/mini-project-3/static/media/section1.256c8edc.png",
     "static/media/section2.4e5b28cc.png": "/mini-project-3/static/media/section2.4e5b28cc.png",
     "static/media/section3.12916bdd.png": "/mini-project-3/static/media/section3.12916bdd.png",
@@ -30,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.8b2abefd.js",
     "static/css/2.818011ed.chunk.css",
-    "static/js/2.957dab52.chunk.js",
-    "static/css/main.d09358b1.chunk.css",
-    "static/js/main.8cca48b1.chunk.js"
+    "static/js/2.23b1cf6b.chunk.js",
+    "static/css/main.be15cd8e.chunk.css",
+    "static/js/main.3a0545a4.chunk.js"
   ]
 }
